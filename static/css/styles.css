@@ -583,8 +583,7 @@ main {
 .evidence-content ul,
 .evidence-content ol {
     color: var(--muted);
-    padding-left: 20px;
-    margin-bottom: 12px;
+    padding-left: 40px;
 }
 
 .evidence-content li {
