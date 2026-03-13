@@ -41,5 +41,14 @@ His moving to Virginia raises concerns as well, due to Virginia’s “[Romeo An
 ![shdow5908-006](/static/assets/evidence-files/shdow5908-006.png)
 ![shdow5908-007](/static/assets/evidence-files/shdow5908-007.png)
 
-We have talked to Shdow personally about this, and when he was confronted about his pedophilic actions, he claims it was “because he was horny” and people just have “different boundaries” which just makes no sense. Him discussing having sex with a 15 turning 16 year old IS BORDERLINE ILLEGAL, and EXTREMELY QUESTIONABLE. There are no “different boundaries” here. It doesn’t matter if both of them are horny, law is law. He is the older person in this relationship, and he should know the law and know what to say and what not to say regardless of the situation. He constantly tries to dodge the questions and play the victims, claiming how the age gaps are "irrelevant" and we shouldn’t be so pressed on them. We’ve also provided comments on most of the images.
+## Confrontation
+
+We have talked to Shdow personally about this, and when he was confronted about his pedophilic actions, he claims it was “because he was horny” and people just have “different boundaries” which just makes no sense. Him discussing having sex with a 15 turning 16 year old IS BORDERLINE ILLEGAL, and EXTREMELY QUESTIONABLE. There are no “different boundaries” here. It doesn’t matter if both of them are horny, law is law. He is the older person in this relationship, and he should know the law and know what to say and what not to say regardless of the situation. He constantly tries to dodge the questions and play the victims, claiming how the age gaps are "irrelevant" and we shouldn’t be so pressed on them. 
+
+
+![shdow5908-008](/static/assets/evidence-files/shdow5908-008.jpg)
+![shdow5908-009](/static/assets/evidence-files/shdow5908-009.jpg)
+![shdow5908-010](/static/assets/evidence-files/shdow5908-010.png)
+![shdow5908-011](/static/assets/evidence-files/shdow5908-011.png)
+
 
