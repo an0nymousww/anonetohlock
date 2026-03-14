@@ -1,6 +1,6 @@
 # Description
 
-Dardius is a raider posting blatant racism, shock content, extremist/nazi content after being banned for doing the same thing on main, NSFW content has been redacted for obvious reason.
+Dardius is a "raider" posting blatant racism, shock content, extremist/nazi content after being banned for doing the same thing on main, NSFW content has been redacted for obvious reason.
 
 # Profile
 
