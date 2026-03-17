@@ -101,10 +101,22 @@ def user_detail(name):
 CREDITS = [
     {
         "name": "TheHaloDeveloper",
-        "role": "Owner, Developer, Evidence Curator",
+        "role": "Owner, Staff, Evidence Curator",
         "bio": "Halo built and maintains the EToH Lock bot and website. He also develops TowerStats.com, sclp.pro, and occasionally contributes to Caleb's Soul Crushing Domain.",
         "image": "/static/assets/users/credits/thehalodeveloper.png"
     },
+    {
+        "name": "Solariteee",
+        "role": "Staff, Evidence Curator",
+        "bio": "Solariteee is a staff member and evidence curator for EToH Lock.",
+        "image": "/static/assets/users/credits/solariteee.png"
+    },
+    {
+        "name": "Manager_Magolor",
+        "role": "Staff, Evidence Curator",
+        "bio": "Manager_Magolor is a staff member and evidence curator for EToH Lock.",
+        "image": "/static/assets/users/credits/manager_magolor.png"
+    }
 ]
 
 @app.route('/credits')
