@@ -1,4 +1,4 @@
-from flask import Flask, render_template, abort, send_from_directory
+from flask import Flask, render_template, abort
 from google.oauth2 import service_account
 from googleapiclient.discovery import build
 import json
@@ -9,10 +9,6 @@ from dotenv import load_dotenv
 load_dotenv()
 
 app = Flask(__name__)
-
-@app.route("/favicon.ico")
-def favicon():
-    return send_from_directory(os.path.join(app.root_path, "static/assets"), "etohlock.png")
 
 creds = service_account.Credentials.from_service_account_info(
     json.loads(os.environ["GOOGLE_CREDENTIALS"]),
