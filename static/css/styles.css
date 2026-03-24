@@ -67,24 +67,6 @@ header {
     font-size: 14px;
 }
 
-.stat-inline {
-    color: var(--muted);
-    font-size: 14px;
-}
-
-.stat-n {
-    color: var(--text);
-}
-
-.back {
-    color: var(--muted);
-    font-size: 13px;
-    transition: color 0.1s;
-}
-
-.back:hover {
-    color: var(--text);
-}
 
 .toolbar {
     display: flex;
@@ -649,7 +631,7 @@ main {
 }
 
 .lp-section {
-    padding: 56px 0;
+    padding-top: 56px;
     border-top: 1px solid var(--border);
 }
 
