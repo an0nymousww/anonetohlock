@@ -27,62 +27,157 @@
         </div>
     </header>
 
-    <main class="home-main">
-        <div class="home-hero">
-            <h1 class="home-title">RoLock</h1>
-            <p class="home-desc">Community safety platform for Discord communities related to Roblox. A public banlist of blacklisted players across communities, backed by documented evidence and enforced through a Discord bot.</p>
-            <div class="home-stats-row">
-                <div class="home-stat">
-                    <span class="home-stat-n">{{ total_accounts }}</span>
-                    <span class="home-stat-label">accounts locked</span>
+    <main class="lp-main">
+        <section class="lp-hero">
+            <h1 class="lp-title">RoLock</h1>
+            <p class="lp-subtitle">Community safety platform for Roblox-related Discord servers. A public banlist of blacklisted players across communities, including documented evidence, enforced through a Discord bot.</p>
+            <div class="lp-ctas">
+                <a class="lp-btn-primary" href="https://discord.gg/5dmQNrjJhW" target="_blank">Join Discord</a>
+                <a class="lp-btn-secondary" href="/banlist">View Banlist</a>
+            </div>
+            <div class="lp-stats">
+                <div class="lp-stat">
+                    <span class="lp-stat-n">{{ total_accounts }}</span>
+                    <span class="lp-stat-label">accounts locked</span>
                 </div>
-                <div class="home-stat-divider"></div>
-                <div class="home-stat">
-                    <span class="home-stat-n">{{ player_count }}</span>
-                    <span class="home-stat-label">players</span>
+                <div class="lp-stat-div"></div>
+                <div class="lp-stat">
+                    <span class="lp-stat-n">{{ player_count }}</span>
+                    <span class="lp-stat-label">players</span>
                 </div>
-                <div class="home-stat-divider"></div>
-                <div class="home-stat">
-                    <span class="home-stat-n" style="color:var(--ll3)">{{ ll3 }}</span>
-                    <span class="home-stat-label">LL3</span>
+                <div class="lp-stat-div"></div>
+                <div class="lp-stat">
+                    <span class="lp-stat-n" style="color:var(--ll3)">{{ ll3 }}</span>
+                    <span class="lp-stat-label">LL3</span>
                 </div>
-                <div class="home-stat-divider"></div>
-                <div class="home-stat">
-                    <span class="home-stat-n" style="color:var(--ll2)">{{ ll2 }}</span>
-                    <span class="home-stat-label">LL2</span>
+                <div class="lp-stat-div"></div>
+                <div class="lp-stat">
+                    <span class="lp-stat-n" style="color:var(--ll2)">{{ ll2 }}</span>
+                    <span class="lp-stat-label">LL2</span>
                 </div>
-                <div class="home-stat-divider"></div>
-                <div class="home-stat">
-                    <span class="home-stat-n" style="color:var(--ll1)">{{ ll1 }}</span>
-                    <span class="home-stat-label">LL1</span>
+                <div class="lp-stat-div"></div>
+                <div class="lp-stat">
+                    <span class="lp-stat-n" style="color:var(--ll1)">{{ ll1 }}</span>
+                    <span class="lp-stat-label">LL1</span>
                 </div>
             </div>
-        </div>
+        </section>
 
-        <div class="home-cards">
-            <a class="home-card" href="/banlist">
-                <div class="home-card-top">
-                    <span class="home-card-title">Banlist</span>
+        <section class="lp-section">
+            <h2 class="lp-section-title">How it works</h2>
+            <div class="lp-steps lp-steps--blue">
+                <div class="lp-step">
+                    <span class="lp-step-n">01</span>
+                    <div class="lp-step-body">
+                        <span class="lp-step-title">Add the bot and run <code>/setup</code></span>
+                        <p class="lp-step-desc">Invite RoLock to your server and run <code>/setup</code>. The bot immediately sweeps all current members, banning anyone already on the list.</p>
+                    </div>
                 </div>
-                <p class="home-card-desc">Browse all locked players, filter by lock level, and view individual case files with evidence.</p>
-                <div class="home-card-meta">
-                    <span class="home-tag ll3-tag">LL3</span>
-                    <span class="home-tag ll2-tag">LL2</span>
-                    <span class="home-tag ll1-tag">LL1</span>
-                    <span class="home-card-count">{{ total_accounts }} accounts</span>
+                <div class="lp-step">
+                    <span class="lp-step-n">02</span>
+                    <div class="lp-step-body">
+                        <span class="lp-step-title">Bans happen on join and every 5 minutes</span>
+                        <p class="lp-step-desc">When a blacklisted player joins your server, they're banned instantly. Every 5 minutes, the bot checks for new banlist entries and sweeps all protected servers.</p>
+                    </div>
                 </div>
-            </a>
+                <div class="lp-step">
+                    <span class="lp-step-n">03</span>
+                    <div class="lp-step-body">
+                        <span class="lp-step-title">Configure your protection level</span>
+                        <p class="lp-step-desc">Use <code>/configure</code> to choose your enforcement tier: LL3 only, LL2+3 (default), or all entries. Use <code>/whitelist_add</code> to exempt specific users from bans in your server.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-            <a class="home-card" href="/credits">
-                <div class="home-card-top">
-                    <span class="home-card-title">Credits</span>
+        <section class="lp-section">
+            <h2 class="lp-section-title">How the banlist is decided</h2>
+            <div class="lp-steps lp-steps--amber">
+                <div class="lp-step">
+                    <span class="lp-step-n">01</span>
+                    <div class="lp-step-body">
+                        <span class="lp-step-title">Anyone can submit a report</span>
+                        <p class="lp-step-desc">Reports are submitted through the RoLock bot using <code>/report</code>, with supporting evidence - screenshots, logs, video clips, or other documentation.</p>
+                    </div>
                 </div>
-                <p class="home-card-desc">The staff and evidence curators who maintain RoLock and keep things up to date.</p>
-                <div class="home-card-meta">
-                    <span class="home-card-count">{{ staff_count }} contributors</span>
+                <div class="lp-step">
+                    <span class="lp-step-n">02</span>
+                    <div class="lp-step-body">
+                        <span class="lp-step-title">RoLock staff screen the report</span>
+                        <p class="lp-step-desc">Staff review whether the report is valid and meets minimum requirements - sufficient evidence, a real offense, a real account. Reports that don't clear this bar are rejected here and go no further.</p>
+                    </div>
                 </div>
-            </a>
-        </div>
+                <div class="lp-step">
+                    <span class="lp-step-n">03</span>
+                    <div class="lp-step-body">
+                        <span class="lp-step-title">The entire RoLock community votes</span>
+                        <p class="lp-step-desc">Approved reports are put to a community vote. Every member of the RoLock Discord receives a ballot with the full case details and compiled evidence. A <strong>75% majority</strong> is required to pass - votes are recorded with optional written reasons for accountability.</p>
+                    </div>
+                </div>
+                <div class="lp-step">
+                    <span class="lp-step-n">04</span>
+                    <div class="lp-step-body">
+                        <span class="lp-step-title">Player is added with a lock level</span>
+                        <p class="lp-step-desc">If the vote passes, the player is added to the banlist. Their lock level is assigned based on the severity of what they did. All protected servers are updated automatically within minutes.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="lp-section">
+            <h2 class="lp-section-title">Lock levels</h2>
+            <div class="lp-levels">
+                <div class="lp-level ll3-level">
+                    <div class="lp-level-head">
+                        <span class="lp-level-badge ll3-badge">LL3</span>
+                        <span class="lp-level-name">Critical</span>
+                    </div>
+                    <p class="lp-level-desc">Protection from people who are actively attempting to attack or raid servers. Enforced by default.</p>
+                </div>
+                <div class="lp-level ll2-level">
+                    <div class="lp-level-head">
+                        <span class="lp-level-badge ll2-badge">LL2</span>
+                        <span class="lp-level-name">Serious</span>
+                    </div>
+                    <p class="lp-level-desc">Protection from people who have targeted multiple individuals - whether sexually or through deliberate doxxing - to cause harm. Enforced by default.</p>
+                </div>
+                <div class="lp-level ll1-level">
+                    <div class="lp-level-head">
+                        <span class="lp-level-badge ll1-badge">LL1</span>
+                        <span class="lp-level-name">Moderate</span>
+                    </div>
+                    <p class="lp-level-desc">Protection from people who have repeatedly shown intolerant views - excessive harassment, discrimination, racism, transphobia, etc. Not enforced by default; server admins opt in with <code>/configure</code>.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="lp-section">
+            <h2 class="lp-section-title">Rotector Integration</h2>
+            <div class="lp-steps lp-steps--purple">
+                <div class="lp-step">
+                    <span class="lp-step-n">01</span>
+                    <div class="lp-step-body">
+                        <span class="lp-step-title">A separate database of known predators</span>
+                        <p class="lp-step-desc"><a href="https://rotector.com/" target="_blank" class="lp-link">Rotector</a> is a third-party database that tracks Roblox accounts tied to condo servers and flags known groomers and pedophiles.</p>
+                    </div>
+                </div>
+                <div class="lp-step">
+                    <span class="lp-step-n">02</span>
+                    <div class="lp-step-body">
+                        <span class="lp-step-title">Automatic bans on join, no overlap required</span>
+                        <p class="lp-step-desc">When Rotector is enabled, RoLock checks every joining member against Rotector's database. Anyone flagged is banned instantly, even if they are not on the RoLock banlist.</p>
+                    </div>
+                </div>
+                <div class="lp-step">
+                    <span class="lp-step-n">03</span>
+                    <div class="lp-step-body">
+                        <span class="lp-step-title">Enable with <code>/rotector_toggle</code></span>
+                        <p class="lp-step-desc">Rotector is off by default. Run <code>/rotector_toggle</code> in your server to turn it on. The bot handles all lookups automatically on every join from that point forward.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
     </main>
 </body>
 </html>
