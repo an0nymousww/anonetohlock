@@ -1,5 +1,4 @@
 import sys
-import re
 import io
 from pathlib import Path
 import fitz
@@ -9,12 +8,6 @@ SCRIPT_DIR = Path(__file__).parent
 EVIDENCE_DIR = SCRIPT_DIR / "static" / "evidence"
 MEDIA_DIR = SCRIPT_DIR / "static" / "assets" / "evidence-files"
 
-def next_media_index(name):
-    existing = list(MEDIA_DIR.glob(f"{name}-*.webp"))
-    if not existing:
-        return 1
-    nums = [int(m.group(1)) for p in existing if (m := re.search(r"-(\d+)\.", p.name))]
-    return max(nums) + 1 if nums else 1
 
 def save_image_as_webp(img_data, img_ext, name, idx):
     filename = f"{name}-{idx:03d}.webp"
@@ -136,9 +129,11 @@ def build_markdown(all_elements):
 def convert(pdf_path):
     pdf_path = Path(pdf_path).resolve()
     pdf_stem = pdf_path.stem
+    for f in MEDIA_DIR.glob(f"{pdf_stem}-*.webp"):
+        f.unlink()
     doc = fitz.open(str(pdf_path))
     body_size = estimate_body_font_size(doc)
-    counter = [next_media_index(pdf_stem)]
+    counter = [1]
 
     all_elements = []
     for page in doc:
