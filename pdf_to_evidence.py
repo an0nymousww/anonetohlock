@@ -8,7 +8,6 @@ SCRIPT_DIR = Path(__file__).parent
 EVIDENCE_DIR = SCRIPT_DIR / "static" / "evidence"
 MEDIA_DIR = SCRIPT_DIR / "static" / "assets" / "evidence-files"
 
-
 def save_image_as_webp(img_data, img_ext, name, idx):
     filename = f"{name}-{idx:03d}.webp"
     dest = MEDIA_DIR / filename
