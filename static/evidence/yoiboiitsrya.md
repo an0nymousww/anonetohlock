@@ -11,3 +11,5 @@ Yoi's raids mostly occured between 2024-2025. His raids mainly consist of spammi
 # Accomplices
 
 Yoi did not conduct his raids and activites alone. He had alts, but his friends also helped him conduct his raids and encouraged his behavior and also conducted gaslighting in order to make Yoi seem innocent. Names include: Orchard, NotAManOfAMan, Dot, and some others.
+
+Examples of their activity will be shown below.
